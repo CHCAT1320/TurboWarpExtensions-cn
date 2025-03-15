@@ -1,0 +1,9 @@
+{
+    "extensions":[
+        {
+            "name":"files",
+            "info":"Read and download files.",
+            "img":"files.svg"
+        }
+    ]
+}
