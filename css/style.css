@@ -34,15 +34,40 @@ body{
     width: 300px;
     height: 250px;
     border-radius: 2.5%;
-    animation: boxSize 0.6s cubic-bezier(0, 0.55, 0.45, 1);
+    animation: boxSize 0.5s 
     
 }
 
 @keyframes boxSize {
     0% {
-      transform: scale(0);
-    }
-    100% {
-      transform: scale(1);
-    }
-  }
+		transform: scale(0); /* 从完全不可见的小尺寸开始 */
+	}
+
+	16% {
+		transform: scale(0.32); /* 稍微放大 */
+	}
+
+	28% {
+		transform: scale(0.87); /* 继续放大 */
+	}
+
+	44% {
+		transform: scale(1.05); /* 接近正常大小 */
+	}
+
+	59% {
+		transform: scale(0.98); /* 稍微回弹 */
+	}
+
+	73% {
+		transform: scale(1.01); /* 再次微调 */
+	}
+
+	88% {
+		transform: scale(0.99); /* 最后调整 */
+	}
+
+	100% {
+		transform: scale(1); /* 最终达到正常大小 */
+	}
+}
