@@ -3,7 +3,14 @@
         {
             "name":"files",
             "info":"Read and download files.",
-            "img":"files.svg"
+            "img":"files.svg",
+            "by":""
+        },
+        {
+            "name":"柏林噪音",
+            "info":"柏林噪音扩展",
+            "img":"boling.png",
+            "by":"雪冰"
         }
     ]
 }

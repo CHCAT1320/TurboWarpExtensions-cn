@@ -23,7 +23,8 @@ function main(){
     //for(let i = 0;i < 10;i++){
     var newExtension = document.createElement('div')
     newExtension.id = "extensionsBox"
-    newExtension.innerHTML = `<img src="./svg/${jsonData.extensions[i].name}.svg" style="width: 300px;height: 150px;"/>` + jsonData.extensions[i].name
+    newExtension.innerHTML = `<img src="./svg/${jsonData.extensions[i].img}" style="width: 300px;height: 150px;"/>` + jsonData.extensions[i].name+
+    `<br>by: ${jsonData.extensions[i].by}`
     extensionsList.appendChild(newExtension)
     console.log(i)
   }
