@@ -26,6 +26,9 @@ function main(){
     newExtension.innerHTML = `<img src="./svg/${jsonData.extensions[i].img}" style="width: 300px;height: 150px;"/>` + jsonData.extensions[i].name+
     `<br>${jsonData.extensions[i].info}`+
     `<br>by: ${jsonData.extensions[i].by}`
+    newExtension.onclick = function() {
+      window.open(`./extensions/${jsonData.extensions[i].name}.js`, '_blank');
+    };
     extensionsList.appendChild(newExtension)
     console.log(i)
   }
