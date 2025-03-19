@@ -11,6 +11,12 @@
             "info":"柏林噪音扩展",
             "img":"boling.png",
             "by":"雪冰"
+        },
+        {
+            "name":"Tune-Shark-V3",
+            "info":"音频操作",
+            "img":"Tune-Shark-V3.svg",
+            "by":"SharkPool-SP"
         }
     ]
 }
